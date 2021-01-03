@@ -7,19 +7,19 @@
 #d1 {
 	width: 500px;
 	height: 500px;
-	background: green;
+	background: #ddd;
 }
 
 #d2 {
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: #aaa;
 }
 
 #d3 {
 	width: 100px;
 	height: 100px;
-	background: yellow
+	background: #888;
 }
 
 /*
@@ -43,6 +43,17 @@ d1 是d2 ，d3 祖先标签
 }
 
 
+
+/* ：开头叫 伪类选择器 ：hover 是表示鼠标悬停*/
+li:HOVER {
+	background-color: yellow;
+}
+
+
+/* 序号选择器*/
+li:nth-child(2){
+	background-color: blue;
+}
 
 </style>
 
